@@ -9,4 +9,10 @@ public class AppTest{
         public void AppTester(){
             Assert.assertTrue(true);
         }
+        
+        @Test
+        public void secondTestesr(){
+        	Assert.assertEquals("ola", "ola");
+        }
+        
    }
