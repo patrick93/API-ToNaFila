@@ -14,5 +14,11 @@ public class AppTest{
         public void secondTestesr(){
         	Assert.assertEquals("ola", "ola");
         }
+
+        @Test
+        public void thirdTester(){
+            int k = 1;
+            Assert.assertEquals(1,k);
+        }
         
    }
