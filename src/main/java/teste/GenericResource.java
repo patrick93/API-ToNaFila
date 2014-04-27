@@ -20,7 +20,7 @@ import javax.ws.rs.Produces;
  *
  * @author patrick
  */
-@Path("generic")
+@Path("teste")
 public class GenericResource {
 
     @Context
